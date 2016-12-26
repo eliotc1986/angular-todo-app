@@ -1,3 +1,20 @@
 # Angular JS Task App
 
-readme coming soon
+## Requirements
+
+- Mongodb
+- npm/express
+- mongoose
+
+# Set-up
+
+```Bash
+npm install
+bower install
+```
+
+# Database
+
+```
+mongod
+```
