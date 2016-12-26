@@ -7,7 +7,7 @@ var app = express();
 // static content
 app.use(express.static(path.join(__dirname, './client')));
 
-// set-up body parser 
+// set-up body parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
@@ -20,5 +20,5 @@ var port = process.env.PORT || CONFIG.port;
 
 // set port
 var server = app.listen(port, function() {
-	console.log("App successfully connected!");
+  console.log("App successfully connected!");
 });

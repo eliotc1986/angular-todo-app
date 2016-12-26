@@ -9,8 +9,7 @@ var models_path = path.join(__dirname, './../server/models');
 
 // loop through and require all models in models folder
 fs.readdirSync(models_path).forEach(function (file){
-	if (file.indexOf('.js') > 0)
-	{
-		require(path.join(models_path,'/',file));
-	}
+  if (file.indexOf('.js') > 0) {
+    require(path.join(models_path,'/',file));
+  }
 });

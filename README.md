@@ -1,4 +1,3 @@
 # Angular JS Task App
 
-readme comming soon
-
+readme coming soon
